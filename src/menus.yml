@@ -1,0 +1,156 @@
+Menus:
+  "STATS-MENU":
+    Title: "&8&lSTATS MENU"
+    Size: 45
+    Borders:
+      "GRAY":
+        Material: "STAINED_GLASS_PANE"
+        Amount: 1
+        Name: " "
+        Lore: []
+        Slots: [ 0,1,2,3,4,5,6,7,8,9,10,16,17,18,19,25,26,27,28,30,31,32,34,35,36,37,38,39,40,41,42,43,44 ]
+    Items:
+      "PLAYER-KILLS":
+        Material: "DIAMOND_SWORD"
+        Amount: 1
+        Name: "&4&l[&c&l!&4&l] &cPlayer Kills"
+        Lore:
+          - " "
+          - "&cInformation"
+          - "&c❚ &7Statistic: &fPlayer Kills"
+          - "&c❚ &7Amount: &f%player_kills%"
+          - " "
+          - " &7( You have killed &f%player_kills% &7players! )"
+        Slot: 11
+      "DEATHS":
+        Material: "BONE"
+        Amount: 1
+        Name: "&6&l[&e&l!&6&l] &ePlayer Deaths"
+        Lore:
+          - " "
+          - "&eInformation"
+          - "&e❚ &7Statistic: &fPlayer Deaths"
+          - "&e❚ &7Amount: &f%deaths%"
+          - " "
+          - " &7( You have died &f%deaths% &7times! )"
+        Slot: 12
+      "MOB-KILLS":
+        Material: "SPIDER_EYE"
+        Amount: 1
+        Name: "&5&l[&d&l!&5&l] &dMob Kills"
+        Lore:
+          - " "
+          - "&dInformation"
+          - "&d❚ &7Statistic: &fMob Kills"
+          - "&d❚ &7Amount: &f%mob_kills%"
+          - " "
+          - " &7( You have killed &f%mob_kills% &7mobs! )"
+        Slot: 13
+      "BLOCKS-BROKEN":
+        Material: "STONE"
+        Amount: 1
+        Name: "&2&l[&a&l!&2&l] &aBlocks Broken"
+        Lore:
+          - " "
+          - "&aInformation"
+          - "&a❚ &7Statistic: &fBlocks Broken"
+          - "&a❚ &7Amount: &f%blocks_broken%"
+          - " "
+          - " &7( You have broken &f%blocks_broken% &7blocks! )"
+        Slot: 14
+      "BLOCKS-PLACED":
+        Material: "REDSTONE"
+        Amount: 1
+        Name: "&6&l[&e&l!&6&l] &eBlocks Placed"
+        Lore:
+          - " "
+          - "&eInformation"
+          - "&e❚ &7Statistic: &fBlocks Placed"
+          - "&e❚ &7Amount: &f%blocks_placed%"
+          - " "
+          - " &7( You have placed &f%blocks_placed% &7blocks! )"
+        Slot: 15
+      "TIMES-CONNECTED":
+        Material: "CLOCK"
+        Amount: 1
+        Name: "&7&l[&f&l!&7&l] &fTimes Connected"
+        Lore:
+          - " "
+          - "&fInformation"
+          - "&f❚ &7Statistic: &fTimes Connected"
+          - "&f❚ &7Amount: &f%times_connected%"
+          - " "
+          - " &7( You have joined &f%times_connected% &7times! )"
+        Slot: 20
+      "EXP-GAINED":
+        Material: "EXPERIENCE_BOTTLE"
+        Amount: 1
+        Name: "&2&l[&a&l!&2&l] &aExperience Gained"
+        Lore:
+          - " "
+          - "&aInformation"
+          - "&a❚ &7Statistic: &fExperience Gained"
+          - "&a❚ &7Amount: &f%exp_gained%"
+          - " "
+          - " &7( You have gained &f%exp_gained% &7experience! )"
+        Slot: 21
+      "CACTUS-PLACED":
+        Material: "CACTUS"
+        Amount: 1
+        Name: "&2&l[&a&l!&2&l] &aCactus Placed"
+        Lore:
+          - " "
+          - "&aInformation"
+          - "&a❚ &7Statistic: &fCactus Placed"
+          - "&a❚ &7Amount: &f%cactus_placed%"
+          - " "
+          - " &7( You have placed &f%cactus_placed% &7cactus! )"
+        Slot: 22
+      "CANE-PLACED":
+        Material: "SUGAR_CANE"
+        Amount: 1
+        Name: "&6&l[&e&l!&6&l] &eSugar Cane Placed"
+        Lore:
+          - " "
+          - "&eInformation"
+          - "&e❚ &7Statistic: &fSugar Cane Placed"
+          - "&e❚ &7Amount: &f%cane_placed%"
+          - " "
+          - " &7( You have placed &f%cane_placed% &7cane! )"
+        Slot: 23
+      "CANE-BROKEN":
+        Material: "DIAMOND_HOE"
+        Amount: 1
+        Name: "&2&l[&a&l!&2&l] &aSugar Cane Broken"
+        Lore:
+          - " "
+          - "&aInformation"
+          - "&a❚ &7Statistic: &fSugar Cane Broken"
+          - "&a❚ &7Amount: &f%cane_broken%"
+          - " "
+          - " &7( You have placed &f%cane_broken% &7cane! )"
+        Slot: 24
+      "DAMAGE-DEALT":
+        Material: "DIAMOND_AXE"
+        Amount: 1
+        Name: "&4&l[&c&l!&4&l] &cDamage Dealt"
+        Lore:
+          - " "
+          - "&cInformation"
+          - "&c❚ &7Statistic: &fDamage Dealt"
+          - "&c❚ &7Amount: &f%damage_dealt%"
+          - " "
+          - " &7( You have dealt &f%damage_dealt% &7damage! )"
+        Slot: 29
+      "DAMAGE-RECEIVED":
+        Material: "REDSTONE_TORCH"
+        Amount: 1
+        Name: "&4&l[&c&l!&4&l] &cDamage Received"
+        Lore:
+          - " "
+          - "&cInformation"
+          - "&c❚ &7Statistic: &fDamage Received"
+          - "&c❚ &7Amount: &f%damage_received%"
+          - " "
+          - " &7( You have received &f%damage_received% &7damage! )"
+        Slot: 33

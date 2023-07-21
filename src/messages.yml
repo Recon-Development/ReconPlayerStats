@@ -1,0 +1,65 @@
+Messages:
+  "NO-PERMISSION":
+    Sound:
+      Enabled: false
+      Value: "FIZZ"
+      Volume: 1
+      Pitch: 1
+    Message:
+      Enabled: true
+      Value:
+        - "&4&l[&c&l!&4&l] &cYou do not have the permission to execute this command!"
+  "OPENING-STATS-MENU":
+    Sound:
+      Enabled: false
+      Value: "ORB_PICKUP"
+      Volume: 1
+      Pitch: 1
+    Message:
+      Enabled: true
+      Value:
+        - "&4&l[&c&l!&4&l] &cOpening player stats..."
+  "HELP":
+    Sound:
+      Enabled: false
+      Value: "ORB_PICKUP"
+      Volume: 1
+      Pitch: 1
+    Message:
+      Enabled: true
+      Value:
+        - "&8&m-----------------------------------"
+        - ""
+        - "&c&lRecon&4&lPlayerStats &8&l┃ &cHelp"
+        - "&7&oCoded and configured by &f&oSefovski"
+        - " "
+        - "&4&lCOMMANDS:"
+        - "&4&l» &c/playerstats view <player>"
+        - "&4&l» &c/playerstats help"
+        - "&4&l» &c/playerstats reset <player>"
+        - " "
+        - "&4&lPERMISSIONS:"
+        - "&4&l» &cplayerstats.command"
+        - "&4&l» &cplayerstats.reset"
+        - " "
+        - "&8&m-----------------------------------"
+  "NULL-PLAYER":
+    Sound:
+      Enabled: false
+      Value: "ORB_PICKUP"
+      Volume: 1
+      Pitch: 1
+    Message:
+      Enabled: true
+      Value:
+        - "&4&l[&c&l!&4&l] &cFailed to find the player!"
+  "RESET-STATS":
+    Sound:
+      Enabled: false
+      Value: "ORB_PICKUP"
+      Volume: 1
+      Pitch: 1
+    Message:
+      Enabled: true
+      Value:
+        - "&4&l[&c&l!&4&l] &cYou have successfully reset &4%player%'s &cstats!"

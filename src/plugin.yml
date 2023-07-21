@@ -1,0 +1,3 @@
+main: net.recondev.stats.ReconStats
+name: ReconStats
+version: 1.0
